@@ -7,7 +7,7 @@
 this script automatically logs into instagram accounts and reports specific accounts from a list.
 
 ### files
-- web_auto_login.py → main script
+- login_report.py → main script
 - login.txt → list of instagram accounts (username and password)
 - report.txt → list of instagram profile links to report
 
