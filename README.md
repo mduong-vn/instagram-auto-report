@@ -1,7 +1,7 @@
 # instagram-auto-report
-#### dev by: duong
+#### dev by: m. duong
 #### date: 2025-06-17
-#### x (twitter) version: coming soon :d
+#### x (twitter) ver: coming soon :D
 
 ### description
 this script automatically logs into instagram accounts and reports specific accounts from a list.
