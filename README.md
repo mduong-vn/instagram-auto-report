@@ -1,5 +1,5 @@
 # instagram-auto-report
-#### made by: duong
+#### dev by: duong
 #### date: 2025-06-17
 #### x (twitter) version: coming soon :d
 
