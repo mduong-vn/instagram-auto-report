@@ -1,7 +1,7 @@
-# instagram auto login and report
-# dev by: duong
+# instagram-auto-report
+# dev by: m. duong
 # date: 2025-06-17
-# x (twiiter) ver. coming soon :d
+# x (twiiter) ver: coming soon :D
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -41,12 +41,12 @@ def login_report(user,pwd):
                     time.sleep(2)
 
                     # reporting process
-                    report_option = browser.find_element(By.XPATH,"//button[contains(text(),'Report')]")
-                    report_option.click()
+                    option = browser.find_element(By.XPATH,"//button[contains(text(),'Report')]")
+                    option.click()
                     time.sleep(2)
 
-                    report_choice = browser.find_element(By.XPATH,"//button[.//div/div[text()='Report Account']]")
-                    report_choice.click()
+                    report_option = browser.find_element(By.XPATH,"//button[.//div/div[text()='Report Account']]")
+                    report_option.click()
                     time.sleep(2)
 
                     report_reason_1 = browser.find_element(By.XPATH,"//button[.//div[contains(text(),\"It's posting content that shouldn't be on Instagram\")]]")
@@ -70,9 +70,9 @@ def login_report(user,pwd):
                     continue
     browser.quit()
 
-# read acc info
-with open('login.txt','r') as f:
-    lines = f.readlines()
+# read login credentials
+with open('login.txt','r') as login_file:
+    lines = login_file.readlines()
     acc = []
     for i in range(0,len(lines),2):
         user = lines[i].strip()
