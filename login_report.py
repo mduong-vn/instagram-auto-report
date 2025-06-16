@@ -1,7 +1,7 @@
 # instagram auto login and report
-# made by: duong
+# dev by: duong
 # date: 2025-06-17
-# x (twiiter) ver. coming soon :D
+# x (twiiter) ver. coming soon :d
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
